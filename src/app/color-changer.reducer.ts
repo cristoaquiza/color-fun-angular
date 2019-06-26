@@ -4,7 +4,7 @@ import { ChangeColorAction, CHANGE_COLOR } from './color-changer.actions';
 
 const initialState: AppState = { color: 'red' };
 
-export const colorChanger: Reducer<AppState> = (
+export const colorChangerReducer: Reducer<AppState> = (
   state: AppState = initialState,
   action: Action
 ): AppState => {
